@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ : l'icône occupe 288 dp, seul le cercle central est visible.
+     Le logo (96 dp) est entouré de marges pour rester entier et centré. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/splash_logo"
+    android:inset="96dp" />

@@ -1,0 +1,21 @@
+# Système
+.DS_Store
+*.log
+
+# Node
+node_modules/
+dist/
+
+# Données et secrets du serveur (jamais dans git)
+lipa-link-admin/server/data/
+.env
+.env.*
+*.pem
+*.key
+
+# Signature Android / iOS
+key.properties
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
